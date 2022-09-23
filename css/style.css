@@ -388,57 +388,57 @@ section {
 }
 
 
-/* =============================== PARTNER =============================== */
+/* =============================== FUTUR =============================== */
 
 
-.partners .box-container {
+.futur .box-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(30rem,1fr));
     gap: 1.5rem;
 }
 
-.partners .box-container .box {
+.futur .box-container .box {
     border: var(--border);
 }
 
-.partners .box-container .box .image {
+.futur .box-container .box .image {
     height: 25rem;
     overflow: hidden;
     width: 100%;
 }
 
-.partners .box-container .box .image img {
+.futur .box-container .box .image img {
     height: 100%;
     width: 100%;
     object-fit: cover;
 }
 
-.partners .box-container .box:hover .image img {
+.futur .box-container .box:hover .image img {
     transform: scale(1.2);
 }
 
-.partners .box-container .box .content {
+.futur .box-container .box .content {
     padding: 2rem;
 }
 
-.partners .box-container .box .content .title {
+.futur .box-container .box .content .title {
     font-size: 2.5rem;
     line-height: 1.5;
     color: #fff;
 }
 
-.partners .box-container .box .content .title:hover {
+.futur .box-container .box .content .title:hover {
     color: var(--main-color);
 }
 
-.partners .box-container .box .content span {
+.futur .box-container .box .content span {
     color: var(--main-color);
     display: block;
     padding-top: 1rem;
     font-size: 2rem;
 }
 
-.partners .box-container .box .content p {
+.futur .box-container .box .content p {
     font-size: 1.6rem;
     line-height: 1.8;
     color: #ccc;
